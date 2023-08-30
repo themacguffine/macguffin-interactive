@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class SceneMaangement : MonoBehaviour
 { 
@@ -17,7 +18,7 @@ public class SceneMaangement : MonoBehaviour
      public Button quitButton;
      public Button pauseButton;
      public Button exitForMain;
-
+     
 
   private void Update()
   {
@@ -70,6 +71,7 @@ public class SceneMaangement : MonoBehaviour
    
 
   }
+  
   public void LoadScene()
   {
     SceneManager.LoadScene("MainGame");
