@@ -7,19 +7,20 @@ using UnityEngine.EventSystems;
 
 public class SceneMaangement : MonoBehaviour
 { 
-    public Button loadGameButton;
-    public GameObject optionsMenu;
-     public Button optionsButton;
-     public Button exitButton;
-     public GameObject pauseMenu;
-     public GameObject pauseButtonOBJ;
-     public Button resumeButton;
+//Pause Menu Inputs
      public Button restartButton;
+     public Button resumeButton;
      public Button quitButton;
+     public GameObject optionsMenu;
+     public Button exitButton;
+     public GameObject pauseButtonOBJ;
+     public GameObject pauseMenu;
      public Button pauseButton;
      public Button exitForMain;
-     
-
+//Lobby Scene Inputs
+     public Button loadGameButton;
+     public Button optionsButton;   
+//These are keys to control the buttons(will ease the difficulty while changing into joystick mechanics)
   private void Update()
   {
     //To start the story mode
@@ -71,12 +72,14 @@ public class SceneMaangement : MonoBehaviour
    
 
   }
-  
+
+//Scene management and loading
   public void LoadScene()
   {
     SceneManager.LoadScene("MainGame");
   }
-  
+
+//Options Menu Activation & Deactivation
   public void Options()
   {
    optionsMenu.gameObject.SetActive(true);
@@ -85,7 +88,8 @@ public class SceneMaangement : MonoBehaviour
   {
     optionsMenu.gameObject.SetActive(false);
   }
-  //Pause Menu and Control
+
+  //Pause Menu and its control
     public void PauseMenu()
     {
       Time.timeScale = 0f;
@@ -110,6 +114,8 @@ public class SceneMaangement : MonoBehaviour
     {
       optionsMenu.gameObject.SetActive(false);
     }
+
+    //The end
 
    
 }
