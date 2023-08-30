@@ -61,11 +61,6 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isGrounded", isGrounded);
         animator.SetFloat("moveSpeed", Mathf.Abs(moveX));
 
-
-        // Animator Controller'daki QPressed şərtini true olarak ayarlayarak geç
-        //animator.SetBool("QPressed", true);
-
-
         if (Input.GetKeyDown(KeyCode.Q))
         {
             // Q tuşuna basıldı, nefes almayı yeniden başlat
@@ -78,7 +73,6 @@ public class PlayerController : MonoBehaviour
         {
             // Q tuşuna basılmadı, zamanı artır
             breathTimer += Time.deltaTime;
-
             // Məlum bir vaxt boyunca nefes alınmazsa animasyonu oynat
             if (breathTimer >= HurtDuration)
             {
@@ -86,7 +80,6 @@ public class PlayerController : MonoBehaviour
                 animator.SetBool("NefesKesilmesi", true); // "NefesKesilmesi" trigger'ını etkinleştir
                 animator.SetBool("isWalking", false);
                 animator.SetBool("isIdle", false);
-
             }
             else
             {
@@ -102,15 +95,11 @@ public class PlayerController : MonoBehaviour
             {
                 animator.SetBool("isDie", false);
             }
-
-
-
-                // Kalan vaxti Console'a yazdır
-                int remainingTime = Mathf.CeilToInt(breathDuration - breathTimer);
+            // Kalan vaxti Console'a yazdır
+            int remainingTime = Mathf.CeilToInt(breathDuration - breathTimer);
             Debug.Log("Qalan Vaxt: " + remainingTime.ToString("0.00") + " saniye");
         }
     }
-
     // Yerde olduğumuza dair kontrol
     void OnCollisionEnter2D(Collision2D collision)
     {
