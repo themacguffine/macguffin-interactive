@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Lobby.unity
+    guid: fed7f0cadeada5742991c4dae8751739
+  - enabled: 1
+    path: Assets/Scenes/PressToCountinue.unity
+    guid: 95eac1a70a7eaf84c8efb3b1fbb9d5ac
+  - enabled: 1
+    path: Assets/Scenes/MacGuffin(EnterToTheGame).unity
+    guid: 6bebc79db3e66a24aae5d11e714bc97e
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 8e5384d2d797f3342801a4b47e7069d2
+  - enabled: 1
+    path: Assets/Scenes/MainGame.unity
+    guid: 1028929305ca0d64e89b2e5f3454fadf
   m_configObjects: {}
