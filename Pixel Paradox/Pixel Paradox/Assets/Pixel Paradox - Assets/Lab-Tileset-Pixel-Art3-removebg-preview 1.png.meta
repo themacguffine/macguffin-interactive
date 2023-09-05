@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d173ff3156109794ab2b5a009148f21c
+guid: 898521772e12d1e47917ebd9400f7f7b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,7 +197,7 @@ TextureImporter:
         width: 54
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,6 +205,27 @@ TextureImporter:
       bones: []
       spriteID: feb5272a6c85a1d42b199c795bc6e4f9
       internalID: 1996927426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab-Tileset-Pixel-Art3-removebg-preview 1_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 267
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399ebb1dddfae5b48b6d6c681cbafd2c
+      internalID: 1109904147
       vertices: []
       indices: 
       edges: []
@@ -223,6 +244,7 @@ TextureImporter:
       Lab-Tileset-Pixel-Art3-removebg-preview_2: 967617461
       Lab-Tileset-Pixel-Art3-removebg-preview_4: 1671141389
       Lab-Tileset-Pixel-Art3-removebg-preview_0: -517401932
+      Lab-Tileset-Pixel-Art3-removebg-preview 1_0: -1700431409
       Lab-Tileset-Pixel-Art3-removebg-preview_1: -302522774
       Lab-Tileset-Pixel-Art3-removebg-preview_3: -881066343
   spritePackingTag: 
