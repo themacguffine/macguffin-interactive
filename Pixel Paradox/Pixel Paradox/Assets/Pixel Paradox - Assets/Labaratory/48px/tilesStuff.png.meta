@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: d3eafed8eb117ee4d919e873a6221162
+=======
+guid: 5681ddd98c356ba4198d589a7e5a5dff
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< Updated upstream
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,6 +109,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1721,6 +1730,23 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+>>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
@@ -1731,6 +1757,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       tilesStuff_25: 1320089442
       tilesStuff_40: 1929909525
@@ -1809,6 +1836,9 @@ TextureImporter:
       tilesStuff_57: -826194111
       tilesStuff_26: -1562237398
       tilesStuff_47: 1312983289
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
