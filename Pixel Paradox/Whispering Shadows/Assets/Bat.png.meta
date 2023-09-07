@@ -42,11 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< Updated upstream
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,21 +95,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
-<<<<<<< Updated upstream
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-=======
->>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +103,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< Updated upstream
     sprites:
     - serializedVersion: 2
       name: Bat_0
@@ -139,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8012e2ea5cd2af40b643f0da8be2614
-      internalID: 890451047
+      spriteID: cc80c83884030364f8cc1bb0ae5b8338
+      internalID: 1404260197
       vertices: []
       indices: 
       edges: []
@@ -160,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1382d387506da64a9feef9a7080f51c
-      internalID: -953791269
+      spriteID: 1e2634536a7bcb1479c5d0b406650acc
+      internalID: 1490268568
       vertices: []
       indices: 
       edges: []
@@ -181,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d8a493b6d4cd0347819a43c38aa1ae9
-      internalID: 1317053516
+      spriteID: f64f0ca2eb74c01498e620fe7599e9f4
+      internalID: -2042823321
       vertices: []
       indices: 
       edges: []
@@ -202,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a4d4ade9fc8ff4f99d090e9cf82ef6
-      internalID: -1410595650
+      spriteID: b421f00542e450d4baabdda762d053b3
+      internalID: -670408366
       vertices: []
       indices: 
       edges: []
@@ -223,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c691e8a44f7b694babbc0376283dcb6
-      internalID: 1387854645
+      spriteID: 3af4de9b773afba4ea342a820c9f1055
+      internalID: 1355906310
       vertices: []
       indices: 
       edges: []
@@ -244,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6408e80eda7a5c646bbb101b0b04c5d2
-      internalID: -486155507
+      spriteID: 942e8af23cc921445a27ebe3722e35a6
+      internalID: -2020776008
       vertices: []
       indices: 
       edges: []
@@ -265,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9839be8755e3fdc4d83eed4f268588ca
-      internalID: -2144220501
+      spriteID: 12f56db55dc07de47a5406b3839e2493
+      internalID: -1948838517
       vertices: []
       indices: 
       edges: []
@@ -286,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cfcb83467da20243aaf0c2ed9049075
-      internalID: 1134308785
+      spriteID: 27b104163014f924182223d91f8dc7f5
+      internalID: 1761200981
       vertices: []
       indices: 
       edges: []
@@ -307,15 +287,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9483a5ab95d26f4eab13a5edeae3477
-      internalID: -278475898
+      spriteID: 4295d99233cd4a7488bca1704444e400
+      internalID: 1345354451
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
@@ -326,21 +303,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-      Bat_2: 1317053516
-      Bat_5: 1387854645
-      Bat_8: 1134308785
-      Bat_1: -953791269
-      Bat_6: -486155507
-      Bat_7: -2144220501
-      Bat_3: 1583457869
-      Bat_9: -278475898
-      Bat_4: -1410595650
-      Bat_0: 890451047
-=======
-    nameFileIdTable: {}
->>>>>>> Stashed changes
+      Bat_2: -2042823321
+      Bat_5: 1355906310
+      Bat_8: 1761200981
+      Bat_1: 1490268568
+      Bat_6: -2020776008
+      Bat_7: -1948838517
+      Bat_3: -1449950782
+      Bat_9: 1345354451
+      Bat_4: -670408366
+      Bat_0: 1404260197
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
