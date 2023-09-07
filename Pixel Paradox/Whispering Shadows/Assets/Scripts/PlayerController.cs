@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float hoppanma_araligi;
     Rigidbody2D rb;
 
-    public Text scoreText;
+    public TMP_Text scoreText;
     public float playerScore;
 
     public GameObject deathPanel;
