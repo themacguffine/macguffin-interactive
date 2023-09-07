@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: c40f49f604fab5a4291f5893aad23ad2
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 09ad38afbc904ca4e8c1e2af84be1895
+  - enabled: 1
+    path: Assets/Scenes/MacGuffin(EnterToTheGame).unity
+    guid: d08c5f361fe6dba419d29f96a85c94f7
+  - enabled: 1
+    path: Assets/Scenes/Main Level.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/PressToCountinue.unity
+    guid: bfeb763a7e152184f805b17b2f215c63
   m_configObjects: {}
