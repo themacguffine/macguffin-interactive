@@ -46,7 +46,6 @@ public class InfiniteCorridor : MonoBehaviour {
             nbPrefabDestroyed++;
         }
 	}
-
     public void buildNewLevel()
     {
         if (activePrefabs != null)
@@ -71,4 +70,5 @@ public class InfiniteCorridor : MonoBehaviour {
     {
         return prefabs[Random.Range(0, 4)];
     }
+   
 }

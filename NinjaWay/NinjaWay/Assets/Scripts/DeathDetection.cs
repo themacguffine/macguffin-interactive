@@ -14,6 +14,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (hit.gameObject.tag.Equals("KillZone") && !fpc.isDead)
             {
                 deathText.SetActive(true);
+                Time.timeScale = 0f;
                 if (!fpc.jumpCommand.Equals("")) {
                     fpc.jumpCommand = "";
                 }
