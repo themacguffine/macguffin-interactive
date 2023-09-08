@@ -10,6 +10,8 @@ public class PlayerControllerTest : MonoBehaviour
     private Rigidbody rb;
     private Animator animator;
 
+    private float horizontalInput = 0f; // Yatay giriş
+
     public float maxBreathDuration = 10.0f; // Maksimum nefes alma süresi (10 saniye)
     public float hurtDurationThreshold = 3.0f; // Yaralanma eşik süresi
     private float breathTimer = 0.0f;
@@ -39,11 +41,13 @@ public class PlayerControllerTest : MonoBehaviour
         {
             moveX = -1f; // Sola yönde hareket
             animator.SetBool("isWalking", true); // Yürüme animasyonunu etkinleştir
+            transform.localScale = new Vector3(-1, 1, 1); // Sağa dön
         }
         else if (Input.GetKey("d"))
         {
             moveX = 1f; // Sağa yönde hareket
             animator.SetBool("isWalking", true); // Yürüme animasyonunu etkinleştir
+            transform.localScale = new Vector3(1, 1, 1); // Sağa dön
         }
         else
         {
@@ -54,6 +58,15 @@ public class PlayerControllerTest : MonoBehaviour
         movement.Normalize();
 
         rb.velocity = movement * moveSpeed;
+
+        if (horizontalInput < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1); // Sola dön
+        }
+        else if (horizontalInput > 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1); // Sağa dön
+        }
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
