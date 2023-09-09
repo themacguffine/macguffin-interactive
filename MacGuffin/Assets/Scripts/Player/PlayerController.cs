@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+
+
     public float breathDuration = 10.0f; // Nefes alma vaxti (10 saniye)
     public float HurtDuration = 3.0f;
     private float breathTimer = 0.0f;
